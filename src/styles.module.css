@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+body {
+  background: #301b52;
+  color: white;
+}
+.App {
+  display: flex;
+}
+
+.main__container {
+  display: flex;
+  margin-top: 9rem;
+  padding: 0 5rem;
+  justify-content: space-around;
+}
+.heading__h1 {
+  margin-top: 1.8rem;
+  margin-right: 1rem;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: "Gideon Roman", cursive;
+  width: 60%;
+  margin: auto;
+  margin-left: 3rem;
+}
